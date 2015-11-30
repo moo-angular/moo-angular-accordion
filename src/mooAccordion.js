@@ -3,7 +3,6 @@ import mooAccordionPanelComponent from './mooAccordionPanel.component';
 import mooAccordionPanelTriggerComponent from './mooAccordionPanelTrigger.component';
 import mooAccordionPanelHeaderComponent from './mooAccordionPanelHeader.component';
 import mooAccordionPanelBodyComponent from './mooAccordionPanelBody.component';
-import mooRepeatTranscludeDirective from './mooRepeatTransclude.js';
 
 // Controllers Needed to be registered for use in 'ng-controller'
 import mooAccordionPanelCtrl from './mooAccordionPanel.controller.js';
@@ -16,6 +15,4 @@ export default app => {
      .directive('mooAccordionPanelHeader', ['$parse', mooAccordionPanelHeaderComponent])
      .directive('mooAccordionPanelBody', ['$parse', mooAccordionPanelBodyComponent])
      .controller('mooAccordionPanelCtrl', mooAccordionPanelCtrl);
-
-  mooRepeatTranscludeDirective(app);   
 }

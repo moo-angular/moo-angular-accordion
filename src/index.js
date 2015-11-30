@@ -1,4 +1,5 @@
 import mooAccordionDirective from './mooAccordion.js';
+import mooRepeatTranscludeModule from 'moo-utility-repeat-transclude';
 
 (function (root, factory) {
     if (typeof module !== 'undefined' && module.exports) {
@@ -22,7 +23,7 @@ import mooAccordionDirective from './mooAccordion.js';
   'use strict';
   // create your angular module and do stuff
   var moduleName = 'mooAngular.accordion';
-  var mod = angular.module(moduleName, []);
+  var mod = angular.module(moduleName, ['mooAngular.utilityRepeatTransclude']);
   
   mooAccordionDirective(mod);
 
