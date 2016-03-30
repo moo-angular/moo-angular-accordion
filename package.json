@@ -1,6 +1,6 @@
 {
   "name": "moo-angular-accordion",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "AngularJS Directive Component of the UI-Toolkit's Accordion for Mutual of Omaha's DXD Team",
   "main": "dist/index.js",
   "scripts": {
@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/TheLarkInn/moo-angular-accordion#readme",
   "dependencies": {
-    "angular": "^1.4.8"
+    "angular": "^1.4.8",
+    "moo-utility-repeat-transclude": "^1.0.0"
   },
   "devDependencies": {
     "angular": "^1.4.8",
